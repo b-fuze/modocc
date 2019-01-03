@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "keyofStringsOnly": true,
+    "allowJs": false,
+    "checkJs": false,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "node_modules/*"
+      ]
+    },
+    "jsx": "React",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ScriptHost",
+      "ES2015",
+      "ES2017",
+      "ES2018"
+    ]
+  },
+  "include": [
+    "./src/main.ts",
+    "./src/redux/*",
+    "./src/components/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
